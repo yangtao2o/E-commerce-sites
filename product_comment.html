@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品评价和咨询</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="main_bg">
+<header>
+    <div class="topBar">
+        <div class="comWidth">
+            <div class="l">
+                <a href="#" class="collect"><b></b>收藏本站</a>
+            </div>
+            <div class="r">
+                欢迎来到本站
+                <a href="login.html">[登录]</a>
+                <a href="login.html#login">[免费注册]</a>
+            </div>
+        </div>
+    </div>
+    <!--logo搜索框购物车开始-->
+    <div class="logoBar">
+        <div class="comWidth">
+            <div class="logo l">
+                <a href="index.html">
+                    <img src="images/icon/logo.png" alt="logo" title="mylogo">
+                    <!--处于seo和用户考虑，img必须把alt属性和title属性都加上-->
+                </a>
+            </div>
+            <div class="search_box l">
+                <form action="#">
+                    <input type="text" class="search_text l" name="search">
+                    <input type="submit" value="搜 索" class="search_btn r">
+                </form>
+            </div>
+            <div class="shopCar r">
+                <span class="shopText l ">购物车</span>
+                <a href="#">
+                    <span class="shopNum r">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--logo搜索框购物车结束-->
+    <!--导航条开始-->
+    <div class="nav_box">
+        <div class="comWidth ">
+            <div class="shopClass l">
+                <h3>
+                    <a href="productCategory.html">全部商品分类 <i></i>
+                    </a>
+                </h3>
+            </div>
+            <ul class="nav l">
+                <li><a href="#">数码城</a></li>
+                <li><a href="#">电脑</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">发现</a></li>
+                <li><a href="#">二手特卖</a></li>
+                <li><a href="#">名品汇</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航条结束-->
+</header>
+
+<!--面包屑开始-->
+<div class="breadcrumb comWidth">
+    <a href="#">首页</a>
+    <span>&nbsp;&gt;&nbsp;</span>
+
+    <a href="#">平板电脑</a>
+    <span>&nbsp;&gt;&nbsp;</span>
+
+    <a href="#">Apple苹果</a>
+    <span>&nbsp;&gt;&nbsp;</span>
+
+    <em>MD531CH/A</em>
+
+</div>
+<!--面包屑结束-->
+
+<!--商品主介绍开始-->
+<div class="product_intro comWidth">
+    <div class="left_pic l">
+        <img src="images/products/main_product.png" alt="main_product">
+        <div class="small_intro_pic">
+            <a href="#"><img src="images/products/sub_main_product1.png" alt=""></a>
+            <a href="#"><img src="images/products/sub_main_product2.png" alt=""></a>
+            <a href="#"><img src="images/products/sub_main_product3.png" alt=""></a>
+            <a href="#"><img src="images/products/sub_main_product4.png" alt=""></a>
+            <a href="#"><img src="images/products/sub_main_product5.png" alt=""></a>
+        </div>
+    </div>
+    <div class="right_intro l">
+        <h3>
+            全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银 MD531CH/A 银白两色生产批次不同混合发货
+        </h3>
+        <div class="product_info">
+            <ul class="low_price">
+                <li>优惠价</li>
+                <li>￥<span>1999.00</span></li>
+            </ul>
+        </div>
+        <div class="product_info">
+            <ul>
+                <li>优惠</li>
+                <li><i></i><span>购ipad加价优惠USB充电插座</span></li>
+            </ul>
+        </div>
+        <div class="buy_info_detail">
+            <div class="product_info">
+                <ul>
+                    <li>送到</li>
+                    <li>
+                        <select name="deliverTo" id="deliverTo" title="deliverTo">
+                            <option value="0">海淀区五环内</option>
+                            <option value="1">单核</option>
+                            <option value="2">双核</option>
+                            <option value="3">三核</option>
+                            <option value="4">四核</option>
+                            <option value="8">八核</option>
+                        </select>
+                        <span>有货，可当日出货</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="product_info">
+                <ul>
+                    <li>选择颜色</li>
+                    <li class="btn_color">
+                        <input type="button"  class="active" name="white" value="白色">
+                        <input type="button" name="black" value="黑色">
+                        <input type="button" name="gray" value="灰色">
+                    </li>
+                </ul>
+            </div>
+            <div class="product_info">
+                <ul>
+                    <li>选择规格</li>
+                    <li class="btn_size">
+                        <input type="button" name="wifi16g" value="WIFI16G" class="active">
+                        <input type="button" name="wifi16g" value="WIFI16G">
+                        <input type="button" name="wifi16g" value="WIFI16G">
+                        <input type="button" name="wifi16g" value="WIFI16G">
+                        <input type="button" name="wifi16g" value="WIFI16G">
+                        <input type="button" name="wifi16g" value="WIFI16G">
+                    </li>
+                </ul>
+            </div>
+            <div class="product_info">
+                <ul>
+                    <li >数量</li>
+                    <li class="btn_num">
+                        <input type="button" name="minus" value="-">
+                        <input type="text" name="Num" value="1">
+                        <input type="button" name="plus" value="+">
+
+                    </li>
+                    <span>限购 <b>9</b>件</span>
+                </ul>
+            </div>
+        </div>
+        <div class="product_info">
+            <ul>
+                <li class="hasChosen">
+                    <b>已选择</b>
+                    <span>白色</span>
+                    |
+                    <span>WIFI16G</span>
+                </li>
+            </ul>
+        </div>
+        <div class="product_info">
+            <ul>
+                <li class="btn_buy">
+                    <button type="submit">
+                        <i></i>加入购物车
+                    </button>
+                    <button type="submit">
+                        <i></i>立即购买
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <p>注意：此商品可提供普通发票，不提供增值税发票。</p>
+    </div>
+</div>
+<!--商品主介绍结束-->
+
+<!--同价位和看最终买开始-->
+<div class="sub_product_intro comWidth">
+    <!--left侧的固定-->
+    <div class="l">
+        <div class="same_price">
+            <h3>同价位</h3>
+            <div class="pic_intro">
+                <img src="images/products/lproduct1.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+            <div class="pic_intro">
+                <img src="images/products/lproduct2.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+            <div class="pic_intro">
+                <img src="images/products/lproduct3.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+
+        </div>
+        <div class="see_buy">
+            <h3>看了最终买</h3>
+            <div class="pic_intro">
+                <img src="images/products/lproduct4.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+            <div class="pic_intro">
+                <img src="images/products/lproduct5.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+            <div class="pic_intro">
+                <img src="images/products/lproduct6.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+            <div class="pic_intro">
+                <img src="images/products/lproduct7.png" alt="lproduct1">
+                <p>
+                    <a href="#">Samsung 三星 GALAXY Tab 38.0 WLAN 版本T310平板电话</a>
+                </p>
+                <a href="#">￥3588.00</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="des_info_content">
+        <ul class="des_title">
+            <li><a href="product_intro.html#intro" id="intro"><i></i>产品介绍</a></li>
+            <li><i></i><a href="product_comment.html#comment" id="comment">商品评价(18750)</a></li>
+        </ul>
+
+        <!--分割复用-->
+        <h3>商品评价</h3>
+        <div class="clearfix score_box mt60 ml10">
+            <div class="score l ">
+                <span>4.7</span><em>分</em>
+            </div>
+            <div class="score_bar l ml20">
+                <ul>
+                    <li>非常不满意</li>
+                    <li>不满意</li>
+                    <li>一般</li>
+                    <li>满意</li>
+                    <li>非常满意</li>
+                </ul>
+                <span>4.7 <i></i></span>
+                <p>共 <span>124213</span>位网友参与评分</p>
+            </div>
+        </div>
+        <div class="clearb clearfix"  id="intro">
+            <ul>
+                <li class="active"><a href="#introd">全部</a></li>
+                <li><a href="#introd">满意（17490）</a></li>
+                <li><a href="#introd">一般（490）</a></li>
+                <li><a href="#introd">不满意（40）</a></li>
+            </ul>
+            <button type="button" name="timeSort">
+                时间排序 <i></i>
+            </button>
+            <button type="button" name="timeSort">
+                推荐排序 <i></i>
+            </button>
+            <img src="images/icon/new.png" alt="new">
+        </div>
+
+        <div class="comment">
+            <div class="about_user l">
+                <img src="images/icon/user.png" alt="user">
+                <p><a href="#">6***42</a></p>
+                <p><a href="#">金色会员</a></p>
+            </div>
+            <div class="about_comments l">
+                <p>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <b>5分 满意</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi enim molestias omnis rem tenetur unde veritatis? Enim necessitatibus nemo, neque, perspiciatis quia quos ratione sint suscipit, tempore vel voluptates.</p>
+                <p>
+                    <a href="#">踩（0）</a>
+                    <a href="#">顶（0）</a>
+                </p>
+            </div>
+            <div class="about_time r">
+                <p>2010-6-2117:07:25</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="comment">
+            <div class="about_user l">
+                <img src="images/icon/user1.png" alt="user">
+                <p><a href="#">6***42</a></p>
+                <p><a href="#">金色会员</a></p>
+            </div>
+            <div class="about_comments l">
+                <p>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <b>5分 满意</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi enim molestias omnis rem tenetur unde veritatis? Enim necessitatibus nemo, neque, perspiciatis quia quos ratione sint suscipit, tempore vel voluptates.</p>
+                <p>
+                    <a href="#">踩（0）</a>
+                    <a href="#">顶（0）</a>
+                </p>
+            </div>
+            <div class="about_time r">
+                <p>2010-6-21 17:07:25</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--分页开始-->
+        <div class="page r">
+            <a href="#">上一页</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+
+            <span>……</span>
+            <a href="#">200</a>
+            <a href="#">下一页</a>
+            <span>共200页，到第</span>
+            <input type="text" value="1">页
+            <input type="button" name="" id="page1" value="确定">
+        </div>
+        <!--分页结束-->
+    </div>
+    <!-- 商品咨询开始-->
+    <div class="products_ask" id="trigger">
+        <ul class="ask_title l">
+            <li><a href="#trigger">全部咨询（705）</a></li>
+            <li class="active"><a href="#trigger">商品咨询（666）</a></li>
+            <li><a href="#trigger">配送/支付（116）</a></li>
+            <li><a href="#trigger">发票/保修（34）</a></li>
+            <li><a href="#trigger">发表咨询</a></li>
+
+        </ul>
+        <p>
+            提示:因厂家更改产品包装、产地或者更换随机附件等没有任何提前通知，且每位咨询者购买情况、提问时间等不同，为此以下回复信息仅供参考！若由此给您带来不便请多多谅解，谢谢！
+        </p>
+        <div class="comment l">
+            <div class="about_user l">
+                <img src="images/icon/user2.png" alt="user">
+                <p><a href="#">6***42</a></p>
+                <p><a href="#">土星会员</a></p>
+            </div>
+            <div class="about_comments l">
+                <p><b>[商品咨询]</b></p>
+                <p>
+                    还能再便宜点吗？？
+                </p>
+                <p>
+                    <b>商家回复：</b>
+                    现在已经是活动价了
+                </p>
+            </div>
+            <div class="about_time r">
+                <p>2010-6-21 17:07:25</p>
+            </div>
+
+        </div>
+        <div class="comment l">
+            <div class="about_user l">
+                <img src="images/icon/user2.png" alt="user">
+                <p><a href="#">6***42</a></p>
+                <p><a href="#">土星会员</a></p>
+            </div>
+            <div class="about_comments l">
+                <p><b>[商品咨询]</b></p>
+                <p>
+                    还能再便宜点吗？？
+                </p>
+                <p>
+                    <b>商家回复：</b>
+                    现在已经是活动价了
+                </p>
+            </div>
+            <div class="about_time r">
+                <p>2010-6-21 17:07:25</p>
+            </div>
+
+        </div>
+
+        <!--分页开始-->
+        <div class="page r">
+            <a href="#">上一页</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+
+            <span>……</span>
+            <a href="#">200</a>
+            <a href="#">下一页</a>
+            <span>共200页，到第</span>
+            <input type="text" value="1">页
+            <input type="button" name="" id="page2" value="确定">
+        </div>
+        <!--分页结束-->
+    </div>
+    <!--商品咨询结束-->
+</div>
+<!--同价位和看最终买结束-->
+
+<footer >
+
+    <p>
+        北京市公安局朝阳分局备案110105004167 | 增值电信业务经营许可证合字B2-20090004
+    </p>
+    <p>
+        网络文化经营许可证京网文[2012] 0405 -126号 | 营业执照：110105001308484
+    </p>
+    <img src="images/icon/copyright.png" alt="">
+    <img src="images/icon/copyright.png" alt="">
+    <img src="images/icon/copyright.png" alt="">
+    <img src="images/icon/copyright.png" alt="">
+</footer>
+<script type="text/javascript" src="js/JavaScript.js"></script>
+</body>
+</html>
