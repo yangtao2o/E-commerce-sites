@@ -276,6 +276,28 @@
 
 /*shoptitle结束*/
 
+/*图片滚动*/
+#box {
+	margin: 0 auto;
+	height: 470px;
+	padding-right: 10px;
+}
+.container {
+	margin-left: -15px;
+	height: 470px;
+	/*border-right: 1px solid #ccc;*/
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	position: relative;
+}
+
+.container img {
+	position: absolute;
+	display: block;
+	left: 0;
+	border-left: 1px solid #ccc;
+}
+
 /*图片加商品开始*/
 .goods_detail {
     margin-bottom: 15px;
